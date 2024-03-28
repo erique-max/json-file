@@ -1,0 +1,66 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["define","deep learning"],
+    "bot_response": "Deep learning is a subfield of machine learning  that focuses on building and training artificial neural networks to learn and make predictions from data.It is inspired by the structure and function of the human brain",
+    "required_words": ["definition", "deep learning"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["briefly","explain","AI"],
+    "bot_response": "AI is the reproduction of human reasoning and intelligent behavior by computational methods ",
+    "required_words": ["explain", "AI"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["distinguish","between","a","contradiction","tautology","and","consequent"],
+    "bot_response": "Contradiction:
+
+    A contradiction is a statement or proposition that is logically inconsistent, meaning it asserts both a statement and its negation simultaneously.",
+Tautology:
+ A tautology is a statement that is always true, regardless of the truth values of its components.
+    It is a statement that is true in every possible interpretation.
+Consequent:
+ In logic, the consequent refers to the second part of a conditional statement, usually represented as "if...then" form",
+ "required_words": ["distinguish", "contradiction","tautology","consequent"]
+  },
+
+  {
+    "response_type": "question",
+    "user_input": ["differentiate","between","forward chaining","backward chaining",],
+    "bot_response": "Forwad chaining:
+Forwad chaining is a data-driven approach. We start from available information as it becomes available and then we draw conclusions. The ES analyzes the problem by looking for the facts that match the IF part of the rules. 
+Backward chaining is a goal driven approach in which you start from an expectation of what is going to happen(hypothesis) and then seek evidence that support (or contradicts) the expectation. This entails formulating sub-goals and evaluating them. 
+",
+    "required_words": ["forward chaining","backward chaining"]
+  },
+
+{
+    "response_type": "question",
+    "user_input": ["make","short notes","on","introduction","to","AI"],
+    "bot_response": "Introduction to AI:
+
+    Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, including learning, reasoning, and problem-solving.
+    It encompasses various subfields like machine learning, natural language processing, computer vision, and robotics.
+    AI finds applications across sectors such as healthcare, finance, transportation, and entertainment, revolutionizing industries and daily life.
+    Ethical considerations, including bias, privacy, and job displacement, are critical in AI development and deployment.
+    AI's future holds promise for transformative advancements but requires careful navigation of societal, ethical, and technical challenges.",
+    "required_words": ["short notes","on","introduction","AI"]
+  }
+]
