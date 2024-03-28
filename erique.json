@@ -30,23 +30,17 @@
   {
     "response_type": "question",
     "user_input": ["distinguish","between","a","contradiction","tautology","and","consequent"],
-    "bot_response": "Contradiction:
-
-    A contradiction is a statement or proposition that is logically inconsistent, meaning it asserts both a statement and its negation simultaneously.",
-Tautology:
- A tautology is a statement that is always true, regardless of the truth values of its components.
-    It is a statement that is true in every possible interpretation.
-Consequent:
- In logic, the consequent refers to the second part of a conditional statement, usually represented as "if...then" form",
+    "bot_response": " A contradiction is a statement or proposition that is logically inconsistent, meaning it asserts both a statement and its negation simultaneously",
+    "bot_response":" A tautology is a statement that is always true, regardless of the truth values of its components",
+     "bot_response":"Consequent In logic, the consequent refers to the second part of a conditional statement, usually represented as "if...then" form",
  "required_words": ["distinguish", "contradiction","tautology","consequent"]
   },
 
   {
     "response_type": "question",
     "user_input": ["differentiate","between","forward chaining","backward chaining"],
-    "bot_response": "Forwad chaining:
-Forwad chaining is a data-driven approach. We start from available information as it becomes available and then we draw conclusions. The ES analyzes the problem by looking for the facts that match the IF part of the rules. 
-Backward chaining is a goal driven approach in which you start from an expectation of what is going to happen(hypothesis) and then seek evidence that support (or contradicts) the expectation. This entails formulating sub-goals and evaluating them. 
+    "bot_response": "Forwad chaining is a data-driven approach. We start from available information as it becomes available and then we draw conclusions. The ES analyzes the problem by looking for the facts that match the IF part of the rules",
+    "bot_response":"Backward chaining is a goal driven approach in which you start from an expectation of what is going to happen(hypothesis) and then seek evidence that support (or contradicts) the expectation. This entails formulating sub-goals and evaluating them", 
 ",
     "required_words": ["forward chaining","backward chaining"]
   },
@@ -54,13 +48,11 @@ Backward chaining is a goal driven approach in which you start from an expectati
 {
     "response_type": "question",
     "user_input": ["make","short notes","on","introduction","to","AI"],
-    "bot_response": "Introduction to AI:
-
-    Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, including learning, reasoning, and problem-solving.
-    It encompasses various subfields like machine learning, natural language processing, computer vision, and robotics.
-    AI finds applications across sectors such as healthcare, finance, transportation, and entertainment, revolutionizing industries and daily life.
-    Ethical considerations, including bias, privacy, and job displacement, are critical in AI development and deployment.
-    AI's future holds promise for transformative advancements but requires careful navigation of societal, ethical, and technical challenges.",
+    "bot_response": " Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, including learning, reasoning, and problem-solving",
+     "bot_response":"It encompasses various subfields like machine learning, natural language processing, computer vision, and robotics",
+     "bot_response":"AI finds applications across sectors such as healthcare, finance, transportation, and entertainment, revolutionizing industries and daily life",
+    "bot_response":" Ethical considerations, including bias, privacy, and job displacement, are critical in AI development and deployment",
+     "bot_response":"AI's future holds promise for transformative advancements but requires careful navigation of societal, ethical, and technical challenges.",
     "required_words": ["short notes","on","introduction","AI"]
   }
 ]
