@@ -43,7 +43,7 @@ Consequent:
 
   {
     "response_type": "question",
-    "user_input": ["differentiate","between","forward chaining","backward chaining",],
+    "user_input": ["differentiate","between","forward chaining","backward chaining"],
     "bot_response": "Forwad chaining:
 Forwad chaining is a data-driven approach. We start from available information as it becomes available and then we draw conclusions. The ES analyzes the problem by looking for the facts that match the IF part of the rules. 
 Backward chaining is a goal driven approach in which you start from an expectation of what is going to happen(hypothesis) and then seek evidence that support (or contradicts) the expectation. This entails formulating sub-goals and evaluating them. 
