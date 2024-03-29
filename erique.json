@@ -32,8 +32,8 @@
     "user_input": ["distinguish","between","a","contradiction","tautology","and","consequent"],
     "bot_response": " A contradiction is a statement or proposition that is logically inconsistent, meaning it asserts both a statement and its negation simultaneously",
     "bot_response":" A tautology is a statement that is always true, regardless of the truth values of its components",
-     "bot_response":"Consequent In logic, the consequent refers to the second part of a conditional statement, usually represented as "if...then" form",
- "required_words": ["distinguish", "contradiction","tautology","consequent"]
+   "bot_response":"Consequent In logic, the consequent refers to the second part of a conditional statement",
+   "required_words": ["distinguish", "contradiction","tautology","consequent"]
   },
 
   {
@@ -41,7 +41,6 @@
     "user_input": ["differentiate","between","forward chaining","backward chaining"],
     "bot_response": "Forwad chaining is a data-driven approach. We start from available information as it becomes available and then we draw conclusions. The ES analyzes the problem by looking for the facts that match the IF part of the rules",
     "bot_response":"Backward chaining is a goal driven approach in which you start from an expectation of what is going to happen(hypothesis) and then seek evidence that support (or contradicts) the expectation. This entails formulating sub-goals and evaluating them", 
-",
     "required_words": ["forward chaining","backward chaining"]
   },
 
